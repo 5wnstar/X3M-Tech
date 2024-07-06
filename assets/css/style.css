@@ -1,0 +1,235 @@
+
+*{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Navbar Styling Start Here..... */
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    /* padding-right: 10px; */
+    padding-top: 20px;
+    background-color: white;
+    /* padding-left: 10px; */
+    gap: 10rem;
+    padding-bottom: 20px;
+    margin-bottom: 5rem;
+}
+.navbar img{
+    width: 10rem;
+}
+.navlinks{
+    display: flex;
+    gap: 5rem;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.navbuttons a{
+    text-decoration: none;
+    background-color: teal;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+/* Body Styling Begins Here ..... */
+body {
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100vh;
+    /* margin-top: 10rem; */
+    background-color: #f5f5f5;
+}
+
+.first {
+    display: flex;
+    /* background-color: #ffffff; */
+    border-radius: 1px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+}
+
+.text {
+    /* padding: 40px; */
+    /* max-width: 50%; */
+    margin-right: 5rem;
+}
+
+.text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    width: 25rem;
+}
+
+.edition {
+    font-size: 16px;
+    color: #999;
+}
+
+.text p {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+    width: 32rem;
+}
+
+.buttons {
+    /* margin-top: 20px; */
+}
+
+.buttons a {
+    text-decoration: none;
+    background-color: #008080;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.buttons a:hover {
+    background-color: #005959;
+}
+
+.grid {
+    max-width: 50%;
+}
+
+.grid img {
+    width: 30rem;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+/* First Section Styling Ends Here... */
+
+/* Second Styling Begins Here.... */
+.second{
+    background-color: teal;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.second .text{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.second .metas{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    gap: 5rem;
+}
+.second .metas h3{
+    font-size: 3rem;
+}
+/* Section 2 Styling ends here ..... */
+
+/* Section 3 Styling Begins Here..... */
+.third{
+    margin-bottom: 5rem;
+}
+.third p{
+    width: 50rem;
+    line-height: 2rem;
+}
+.third a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bolder;
+}
+/* Third Section Styling Ends Here ..... */
+
+/* Fourth Section Styling Begins Here..... */
+.fourth .meta{
+    display: flex;
+    justify-content: space-around;
+}
+.fourth .meta2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.fourth p{
+    width: 28rem;
+}
+.fifth{
+    margin-left: 20rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    line-height: 10rem;
+}
+.fifth .meta a{
+    background-color: teal;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+    margin-left: 13rem;
+}
+
+/* Footer Style Start here.... */
+.down {
+    background-color: white;
+}
+.last{
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    /* text-align: left; */
+    justify-content: space-between;
+    box-shadow: #555555;
+}
+.last ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 3px;
+}
+.meta{
+    line-height: 2rem;
+}
+.meta a{
+    text-decoration: none;
+    color: black;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-left: 2rem;
+}
+.icons img{
+    width: 20px;
+}
+.down2{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
