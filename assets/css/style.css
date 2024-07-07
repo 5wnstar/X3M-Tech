@@ -4,13 +4,19 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+header{
+    background-color: white;
+}
 /* Navbar Styling Start Here..... */
 .navbar{
     display: flex;
     /* justify-content: space-around; */
     /* padding-right: 10px; */
     padding-top: 20px;
-    background-color: white;
+    /* position: fixed; */
+    /* top: 0;  */
+    /* width: 100%; */
     /* padding-left: 10px; */
     gap: 10rem;
     padding-bottom: 20px;
