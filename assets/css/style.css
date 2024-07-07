@@ -9,14 +9,27 @@ header{
     background-color: white;
 }
 /* Navbar Styling Start Here..... */
+header{
+position: fixed;
+top: 0;
+width: 100%;
+}
+.topUs{
+    margin-top: 120px;
+}
 .navbar{
     display: flex;
-    /* justify-content: space-around; */
-    /* padding-right: 10px; */
+    justify-content: space-between;
+
     padding-top: 20px;
+<<<<<<< HEAD
     /* position: fixed; */
     /* top: 0;  */
     /* width: 100%; */
+=======
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+>>>>>>> d45806b725d1fb8ca89350324a9c5236fa97b7eb
     /* padding-left: 10px; */
     gap: 10rem;
     padding-bottom: 20px;
@@ -46,12 +59,15 @@ header{
     font-size: large;
     font-weight: bolder;
 }
+.container {
+   padding-left: 50px;
+    padding-right: 50px;
+}
 /* Body Styling Begins Here ..... */
 body {
     margin: 0;
     padding: 0;
-    padding-left: 50px;
-    padding-right: 50px;
+ 
     height: 100vh;
     /* margin-top: 10rem; */
     background-color: #f5f5f5;
